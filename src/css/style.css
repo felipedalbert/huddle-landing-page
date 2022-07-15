@@ -4,6 +4,8 @@ body{
     font-family: var(--text-font);
     background: var(--primary-dark) url(../images/bg-desktop.svg) no-repeat center center;
     background-size: cover;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .content-container{
@@ -44,6 +46,7 @@ body{
 .content-container main .info-container h2{
     font-family: var(--heading-font);
     font-size: 40px;
+    max-width: 540px;
 }
 
 .content-container main .info-container p{
@@ -64,7 +67,7 @@ body{
 }
 
 .content-container main .info-container a:hover{
-    background-color: #966dff;
+    background-color: var(--primary-soft);
     color: white;
     transition: .2s ease-in-out;
 }
