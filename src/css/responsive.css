@@ -5,8 +5,12 @@
         background-size: 100%;
     }
 
+    .content-container header{
+        text-align: center;
+    }
+
     .content-container header a img{
-        width: 40%;
+        width: 60%;
     }
 
     .content-container header{
@@ -51,14 +55,6 @@
         width: 30px;
         height: 30px;
     }
-}
-
-@media (max-width: 425px) {
-
-    .content-container header a img{
-        width: 130px;
-    }
-
 }
 
 @media (max-width:365px) {
